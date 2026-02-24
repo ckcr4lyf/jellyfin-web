@@ -352,7 +352,7 @@ export default function (view) {
                 _focus(focusElement);
             }
             toggleSubtitleSync();
-            toggleAspectRatioScale();
+            // toggleAspectRatioScale();
         } else if (currentVisibleMenu === 'osd' && !layoutManager.mobile) {
             _focus(focusElement);
         }
